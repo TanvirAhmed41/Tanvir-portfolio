@@ -188,5 +188,38 @@ height: 0px;
 }
 
 .resume-button {
+    margin-top: 50px;
     text-align: center;
+}
+/* contct styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-description{
+    margin-bottom: 30px;
+}
+.contact-title{
+text-align: left;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 30px;
+}
+.contact-title-mesg{
+    text-align: top right;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 30px;
+
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
