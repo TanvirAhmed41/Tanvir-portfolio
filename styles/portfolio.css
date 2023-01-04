@@ -74,16 +74,18 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section {
+  margin-top: 131px;
+}
 /* About Section Styles */
 .about {
-  margin-top: 131px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
 }
 .about-title {
-    text-align: center;
+  text-align: center;
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 30px;
@@ -107,9 +109,7 @@ main {
   color: #474747;
 }
 /* what i do styles */
-.wid {
-  margin-top: 131px;
-}
+
 .wid-title {
   text-align: center;
   font-weight: 700;
@@ -141,4 +141,52 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
+}
+/* Resume styles */
+.resume {
+}
+.resume-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-education {
+    font-weight: 700;
+font-size: 30px;
+font-weight: 700;
+font-size: 30px;
+
+}
+.resume-edu-levle{
+    margin-top: 30px;
+}
+.resume-edu-levle .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+.resume-edu-levle .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+.resume-edu-levle .description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 558px;
+height: 0px;
+}
+
+.resume-button {
+    text-align: center;
 }
